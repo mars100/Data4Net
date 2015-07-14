@@ -1,0 +1,1822 @@
+﻿2015-06-19 V2.400.19
+1. Modify JsonGo.ShowJsonString2Human();
+
+2015-05-27 V2.400.18
+1. Modify Hz2Py();
+
+2015-05-07 V2.400.17
+1. Add MonitorUtility.GetSortInt64();
+
+2015-05-07 V2.400.16
+1. Add IoHelper.FormatFileSize();
+
+2014-10-30 V2.400.15
+1. Add DES.SetMode();
+2. Add TripleDES.SetMode();
+3. Add Rijndael.SetMode();
+4. Add RC2.SetMode();
+
+2014-09-11 V2.400.14
+1. Modify SqlSpSimpleDevelop.Parameter;
+2. Add SqlSpSimpleDevelop.ParameterAt;
+3. Add SqlSpSimpleDevelop.SqlCreate;
+
+2014-06-25 V2.400.13
+1. Modify AssemblyComHelper Class.
+2. Add AssemblyComHelper.ExecuteInvoke2 function.
+
+2014-06-24 V2.400.12
+1. Modify AssemblyComHelper Class.
+2. Modify AssemblyComHelper.ExecuteInvoke function.
+
+2014-06-24 V2.400.11
+1. Modify AssemblyComHelper Class.
+
+2014-06-24 V2.400.10
+1. Add AssemblyWcfHelper Class (需要.net framework 3.5 or 4.0支持).
+2. Modify AssemblyComHelper Class.
+
+2014-04-11 V2.400.9
+1. Add Hz2Py Class.
+
+2014-04-09 V2.400.8
+1. 修复 DataHelper.GetSingle() 返回类型错误;
+
+2013-12-26 V2.400.7
+1. 优化 LogLevel;
+2. 优化 LogLevelUtility;
+
+2013-12-26 V2.400.6
+1. 优化 LogLevel;
+2. 调整 Global.asax, 支持 IIS7 集成模式的 Loglevel;
+
+2013-12-17 V2.400.5
+1. Add WeekHelper.GetWeekOfYear()
+1. Add WeekHelper.GetWeekOfYear_ZeroToLast()
+
+2013-12-06 V2.400.4
+1. Add IpHelper.IsIpV4()
+2. 注释说明增加：Application_Start 在IIS 7的集成模式下， Context, Application, Session 都是未初始化的。
+3. Visual Studio 版本从 Visual Studio 2010 变更为 Visual Studio 2013。
+
+2013-10-24 V2.400.3
+1. Modify CheckHelper.IsIdCard_China()
+
+2013-10-22 V2.400.2
+1. Modify LogLevel.PrintLogLevelRunInfo()
+
+2013-09-06 V2.400.1
+1. Modify LogLevel.PrintLogLevelRunInfo()
+2. Modify MonitorGo.GetAllInfo()
+
+2012-12-03 V2.350.9
+1. Add ArrayHelper.ArrayList2Strings()
+2. Add ArrayHelper.Strings2ArrayList()
+
+2012-10-15 V2.350.8
+1. Add DataHelper.GetObjectFromAllowList()
+2. Add DataHelper.IsObjectFromAllowList()
+3. Modify DataHelper.GetStringFromAllowList()
+4. Modify DataHelper.IsStringFromAllowList()
+
+2012-10-15 V2.350.7
+1. Add DataHelper.GetStringFromAllowList()
+2. Add DataHelper.IsStringFromAllowList()
+
+2012-09-27 V2.350.6
+1. Add UriHelper Class
+
+2012-08-15 V2.350.5
+1. Add WebHelper.HttpUserAgent
+2. Add WebHelper.HttpUaCpu
+3. Modify LogLevel.FormatMsgWeb()
+
+2012-08-15 V2.350.4
+1. Modify LogLevelFile.ClearFilePath()
+
+2012-08-02 V2.350.3
+1. Add DateTimeHelper.GetDateTime_str()
+
+2012-08-02 V2.350.2
+1. Modify DKeyAes Class
+2. Modify DKeyDes Class
+3. Modify DKeyRijndael Class
+
+2012-07-26 V2.350.1
+1. Modify WebHelper.MainUrlApplicationPath
+2. Modify WebHelper.Https
+3. Modify WebHelper.ServerName
+4. Modify WebHelper.ServerPort
+
+2012-07-03 V2.338
+1. Add StructHelper Class
+2. Add StructHelper.StructToBytes()
+3. Add StructHelper.BytesToStruct()
+
+2012-07-03 V2.337
+1. Add DateTimeHelper.GetUnixTicks()
+2. Add IpHelper Class
+3. Add IpHelper.Int2Ip()
+4. Add IpHelper.Ip2Int()
+
+2012-07-03 V2.336
+1. Add NetHelper.PostUrlReturnFirstLine()
+2. Add NetHelper.PostUrlReturn()
+3. Add NetHelper.PostUrlReturnList()
+4. Add NetHelper.PostUrlReturnByType()
+
+2012-07-02 V2.335
+1. Modify LogLevel Class, Support file path config is setted relative path or absolute path.
+
+2012-06-26 V2.334
+1. Add AdapterHelper Class
+2. Add AdapterHelper.Info Class
+3. Add DataHelper.CombinePage()
+
+2012-06-15 V2.333
+1. Modify ImageHelper Class
+2. Modify ImageAddInfo Class
+3. Modify ImageHelper.GetThumbnailImage(), add info opacity.
+
+2012-06-14 V2.332
+1. Modify ImageHelper Class
+
+2012-05-24 V2.331
+1. Modify ImageAddInfo Class
+2. Modify ImageHelper Class
+
+2012-05-23 V2.330
+1. Modify ImageAddInfo Class
+2. Modify ImageHelper.IsImage()
+
+2012-05-23 V2.329
+1. Add DataHelper.IsEqualsIgnoreCase()
+
+2012-05-15 V2.328
+1. Modify SqlSimpleDevelop.GetSqlSpSimpleDevelopMsSql
+2. Modify SqlSimpleDevelop.GetSqlSpSimpleDevelopOleDb
+
+2012-05-15 V2.327
+1. Modify CacheManager Class
+
+2012-05-14 V2.326
+1. Modify WebControlHelper.AddDropDownListValue() note
+
+2012-05-11 V2.325
+1. Add  SerializeHelper Class
+2. Modify XmlHelper.GetStringByXmlSerializer()
+3. Modify IoHelper.SaveSerializeObjToBinFile()
+4. Modify IoHelper.GetSerializeObjByBinFile()
+
+2012-04-28 V2.324
+1. Modify SqlSimpleDevelop Class
+2. Modify SqlSpSimpleDevelop Class
+
+2012-04-25 V2.323
+1. Modify DataHelper.GetDataViewByIdx()
+
+2012-04-24 V2.322
+1. Add DataHelper.GetKeyIgnoreCase()
+
+2012-03-29 V2.321
+1. Add GetInt32(object obj, int[] valueItem)
+2. Add GetInt32(object obj, int[] valueItem, int defaultIndex)
+3. Add GetInt64(object obj, long[] valueItem)
+4. Add GetInt64(object obj, long[] valueItem, int defaultIndex)
+5. Add GetDouble(object obj, double[] valueItem)
+6. Add GetDouble(object obj, double[] valueItem, int defaultIndex)
+
+2012-03-28 V2.320
+1. Add GetString(object obj, string[] valueItem)
+2. Add GetString(object obj, string[] valueItem, int defaultIndex)
+
+2012-03-09 V2.319
+1. Add Encrypt.AES Class (only in .net 3.5)
+2. Add DKey.DKeyAes Class (only in .net 3.5)
+3. Add DKey.DKeyRijndael Class
+
+2012-01-31 V2.318
+1. Add MonitorGo.GetBinFileInfo()
+
+2012-01-13 V2.317
+1. Add WebHelper.SessionIDStrong
+2. Modify LogLevel.FormatMsgWeb()
+
+2012-01-10 V2.316
+1. Add WebHelper.GetServerVariables()
+2. Add WebHelper.HttpReferer
+3. Modify LogLevel.FormatMsgWeb()
+
+2011-12-31 V2.315
+1. Modify MonitorPage Class
+2. Modify MonitorSession Class
+
+2011-12-30 V2.314
+1. Modify MonitorPage Class
+2. Modify MonitorSession Class
+
+2011-12-30 V2.313
+1. Modify MonitorPage Class
+2. Modify MonitorSession Class
+
+2011-12-30 V2.312
+1. Add HexBase64Conversion.GetBase64()
+2. Add HexBase64Conversion.GetHex()
+3. Add HexBase64Conversion.GetByteByBase64()
+4. Add HexBase64Conversion.GetByteByHex()
+
+2011-12-27 V2.311
+1. Modify MonitorGo Class
+
+2011-12-26 V2.310
+1. Modify MonitorPage Class
+2. Modify MonitorSession Class
+
+2011-12-16 V2.309
+1. Add WebHelper.SessionIDFromCookies()
+
+2011-12-05 V2.308
+1. Add ShareMemoryWin class.
+
+2011-11-30 V2.307
+1. Add LogLevel auto clear log file by config file.
+
+2011-10-17 V2.306
+1. Add NetHelper Class comment
+
+2011-09-02 V2.305
+1. Add RSA4Pem Class
+2. Add RSAKeyModel.RSAPara
+3. Add RSAPara.GetHex()
+
+2011-09-01 V2.304
+1. Modify RedisSharp.Redis() Class
+
+2011-08-31 V2.303
+1. Modify and fixed RedisSharp.Redis() Class
+
+2011-08-30 V2.302
+1. Add WeekHelper.GetWeekFirstDayZero()
+2. Add WeekHelper.GetWeekLastDayZero()
+
+2011-08-29 V2.301
+1. Add Data4Net.RedisSharp.Redis() Class
+
+2011-07-21 V2.300
+1. Modify HexBase64Conversion.GetBase64ByHex()
+
+2011-07-20 V2.299
+1. Add HexBase64Conversion Class
+2. Add RSAKeyModel Class
+
+2011-07-15 V2.298
+1. Modify class name, JsonGet is modified to JsonString
+
+2011-07-07 V2.297
+1. Add JsonGet Class
+2. Add ImageHelper.GetGifFrameCount()
+
+2011-07-07 V2.296
+1. Add ImageHelper.GetGifFrame()
+
+2011-07-07 V2.295
+1. Add ImageHelper.GrayScale()
+
+2011-06-15 V2.294
+1. Add DataHelper.IsObjectFromAllowList<T>()
+
+2011-06-15 V2.293
+1. Add DataHelper.GetObjectFromAllowList<T>()
+
+2011-06-07 V2.292
+1. Modify MonitorPage, Add MonitorPage.MaxDetails
+2. Modify MonitorSession, Add MonitorSession.MaxDetails
+
+2011-06-07 V2.291
+1. Modify MonitorPage
+2. Modify MonitorSession
+3. Modify MonitorGo.GetAllInfo()
+
+2011-05-31 V2.290
+1. Add LogLevelUtility.TidCurrent
+2. Delete LogLevel.FormatMsg parameter (currentUser, errorId)
+3. Delete LogLevel.FormatMsgWeb parameter (currentUser, errorId)
+4. Delete LogLevel.FormatMsgWin parameter (currentUser, errorId)
+5. Add LogLevelUtility.ErrorId
+
+2011-05-30 V2.289
+1. Add WebHelper.RedirectJs()
+
+2011-05-17 V2.288
+1. Add WebHelper.UrlOriginal
+2. Add WebHelper.UrlReferrerOriginal
+3. Modify LogLevel.FormatMsgWeb()
+
+2011-05-16 V2.287
+1. Add JsonGo Class
+
+2011-05-13 V2.286
+1. Modify MonitorPage
+2. Modify MonitorSession
+
+2011-05-12 V2.285
+1. Modify MonitorPage
+2. Modify MonitorSession
+
+2011-05-11 V2.284
+1. Modify MonitorUtility.GetLogsTs()
+
+2011-05-10 V2.283
+1. Add MonitorUtility.GetDivide() function.
+2. Modify log format for MonitorPage.
+3. Modify log format for MonitorSession.
+
+2011-05-07 V2.282
+1. WebHelper.GetAllRequestQueryToLog add ignoreEmpty
+2. WebHelper.GetAllRequestFormToLog add ignoreEmpty
+
+2011-05-04 V2.281
+1. Add LogLevel.Init() function
+
+2011-05-04 V2.280
+1. Add LogLevelConfig Class
+2. Add LogLevel.CloseAsync() function
+
+2011-04-22 V2.279
+1. 调整 ImageHelper.Postxxx() 名字, 更具有功能含义
+2. 添加 ImageHelper.PostClientSubmitImage() 实例注释
+3. 添加 DKey 实例注释
+
+2011-04-21 V2.278
+1. 调整 MonitorSession 日志格式
+2. 调整 MonitorPage 日志格式
+3. 增加 SHA1 Class
+4. 增加 EncryptHelper.EncodeSha1()
+
+2011-04-13 V2.277
+1. 修改 MonitorPage Period 单位由秒修改为分
+2. 修改 MonitorSession Period 单位由秒修改为分
+
+2011-04-12 V2.276
+1. 增加 MailGo 异常是抛出信息中包含邮件服务器返回的所有字符串信息
+
+2011-04-12 V2.275
+1. 调整 MonitorPage ProcessCount 统计方式, 由定时每分钟统计修改为定量每10000次统计一次
+
+2011-04-12 V2.274
+1. 优化 MonitorPage 日志格式
+2. 调整 MonitorPage ProcessCount 统计方式, 由定时每分钟统计修改为定量每1000次统计一次
+
+2011-04-12 V2.273
+1. 修改 WebHelper.ResponseAddHeader_BlockIframeSessionLost() -> WebHelper.ResponseAddHeader_P3P()
+2. 增加 WebHelper.ResponseAddHeader_P3P2()
+
+2011-04-11 V2.272
+1. 调整 MonitorSession 统计方式, 由定时每分钟统计修改为定量每100次统计一次
+2. 调整 MonitorPage 统计方式, 由定时每分钟统计修改为定量每1000次统计一次
+3. MonitorUtility.GetSortInt32() 支持value相同时key正序排序
+4. MonitorUtility.GetSortDouble() 支持value相同时key正序排序
+
+2011-04-11 V2.271
+1. 增加 MonitorUtility.GetLogsTs() 按照times排序
+
+2011-04-08 V2.270
+1. 增加 WebHelper.GetAllRequestQueryToLog() 支持自定义encode
+2. 增加 WebHelper.GetAllRequestFormToLog() 支持自定义encode
+3. 增加 PageHelper.GetFormPost()
+
+2011-04-08 V2.269
+1. 调整 MonitorPage Class 统计格式
+2. 调整 MonitorGo.GetBinFileInfoByWeb 统计格式
+3. 调整 MonitorGo.GetHardDiskInfo 统计格式
+
+2011-04-07 V2.268
+1. 优化 MonitorPage Class 统计功能
+2. 优化 MonitorSession Class 统计功能
+
+2011-04-07 V2.267
+1. 优化 MonitorPage Class 统计功能
+2. 优化 MonitorSession Class 统计功能
+
+2011-03-28 V2.266
+1. 优化 MonitorUtility.GetLogsTs() 显示格式
+
+2011-03-26 V2.265
+1. 废弃 MonitorPage.PageKeyList
+
+2011-03-25 V2.264
+1. 调整 MonitorUtility.GetLogsTs() 格式
+
+2011-03-25 V2.263
+1. 增加 MonitorPage 记录每个页面的耗时, 并在 MonitorPage.GetPageCount() 打印出具体日志
+2. 增加 MonitorUtility.GetLogsTs()
+
+2011-03-19 V2.262
+1. 调整 MonitorGo.GetHardDiskInfo() 异常格式
+
+2011-03-18 V2.261
+1. 调整 MonitorGo.GetHardDiskInfo() 支持遇到无权限某盘符时继续后续盘符读取
+
+2011-03-18 V2.260
+1. 调整 MonitorPage.GetPageCount() 格式
+
+2011-03-16 V2.259
+1. 调整 MonitorPage.GetPageCount() 格式
+
+2011-03-16 V2.258
+1. 增加 MonitorGo.GetBinFileInfoByWeb() 异常内部捕获
+2. 增加 MonitorGo.GetHardDiskInfo()
+
+2011-03-08 V2.257
+1. 调整 MonitorGo.GetTsLogs() 格式
+
+2011-03-08 V2.256
+1. 调整 MonitorGo.GetTsLogs() 格式
+
+2011-03-08 V2.255
+1. 调整 MonitorGo.GetTsLogs() 格式
+
+2011-03-08 V2.254
+1. 调整 MonitorGo.GetTsLogs() 格式
+
+2011-03-08 V2.253
+1. 增加 DKeyDes 外部使用说明
+2. 增加 DKeyAes 外部使用说明
+3. 调整 LogLevel.PrintLogLevelRunInfo() 格式
+
+2011-03-08 V2.252
+1. 增加 DKey 包
+2. 转移 DKeyMd5 到 DKey 下
+3. 新增 DKeyDes, 基于MD5的动态Key加密解密DES算法
+4. 新增 DKeyAes, 基于MD5的动态Key加密解密AES算法
+
+2011-03-07 V2.251
+1. 优化 DKeyMd5 注释
+2. 优化 DKeyMd5 内部变量使用
+3. 修复 LogLevel 增加 MailGo 支持后的 BUG, 会引起异步日志线程无法正常启动
+
+2011-03-03 V2.250
+1. 增加 IoHelper.LoadFileList()
+
+2011-03-03 V2.249
+1. 调整 MonitorGo 日志格式
+2. 增加 MonitorGo.MaxTsLogs 的日志内存保存条数提供外部设置属性, 默认任然为100条
+
+2011-03-03 V2.248
+1. 调整 DataHelper.GetXXX() 2,8,10,16 进制的转换支持 function 名字增加 ByBit 后缀
+2. 调整 DataHelper.IsXXX() 2,8,10,16 进制的转换支持 function 名字增加 ByBit 后缀
+3. 以上调整防止因为重载 object 对象时, 当参数一样 string 则都不会执行 object 那一流程, 防止隐患发生
+
+2011-03-03 V2.247
+1. 修复 DataHelper.GetInt16() BUG
+2. 修复 DataHelper.GetUInt16() BUG
+3. 修复 DataHelper.GetInt32() BUG
+4. 修复 DataHelper.GetUInt32() BUG
+5. 修复 DataHelper.GetInt64() BUG
+6. 修复 DataHelper.GetUInt64() BUG
+
+2011-03-03 V2.246
+1. 增加 DataHelper.GetInt16() 对 2,8,10,16进制字符串的转换支持
+2. 增加 DataHelper.GetUInt16() 对 2,8,10,16进制字符串的转换支持
+3. 增加 DataHelper.GetInt32() 对 2,8,10,16进制字符串的转换支持
+4. 增加 DataHelper.GetUInt32() 对 2,8,10,16进制字符串的转换支持
+5. 增加 DataHelper.GetInt64() 对 2,8,10,16进制字符串的转换支持
+6. 增加 DataHelper.GetUInt64() 对 2,8,10,16进制字符串的转换支持
+7. 增加 DataHelper.IsInt16() 对 2,8,10,16进制字符串的转换支持
+8. 增加 DataHelper.IsUInt16() 对 2,8,10,16进制字符串的转换支持
+9. 增加 DataHelper.IsInt32() 对 2,8,10,16进制字符串的转换支持
+10. 增加 DataHelper.IsUInt32() 对 2,8,10,16进制字符串的转换支持
+11. 增加 DataHelper.IsInt64() 对 2,8,10,16进制字符串的转换支持
+12. 增加 DataHelper.IsUInt64() 对 2,8,10,16进制字符串的转换支持
+
+2011-03-03 V2.245
+1. 增加 ImageHelper.GetThumbnailImage() byte[] srcImg 的支持
+
+2011-03-03 V2.244
+1. 修复 ImageHelper.GetThumbnailImage() 一个在只做水印图片处理时的空对象异常
+
+2011-03-03 V2.243
+1. 优化 ImageHelper.GetThumbnailImage(), 防止出现异常时发生内存溢出
+2. 增加 ImageHelper.GetImageByCanvas()
+
+2011-03-02 V2.242
+1. 增加 MailGo.Smtp.SendMailAsync() 异步方式
+2. 增加 MailGo.Smtp.SendMailStable() 同步稳定版本, 即不抛出异常
+3. 调整 MailGo.Smtp.SendMail() 内部处理方式, 废弃存在的异步过程, 全部同步处理
+4. 调整 MailGo.Smtp 异步发送邮件由delegate方式实现, 废弃 NetworkStream 的 BeginWrite 异步处理方式
+
+2011-03-02 V2.241
+1. 调整 PrintLogLevelRunInfo() 增加 SendClass 新增配置参数的输出
+
+2011-03-02 V2.240
+1. 调整 MailGo, 修复隐患
+
+2011-03-02 V2.239
+1. 修复 LogLevel 增加 MailGo 后的 BUG
+
+2011-03-02 V2.238
+1. 调整并优化 MailGo, 建立线程安全机制, 实现TCP短链接, 实现TCP长连接, 实现自动内部重连机制
+2. LogLevel 增加 Mail 的发送方式配置 <mailSendClass>1</mailSendClass>, 0 SmtpClient, 1 MailGo短链接, 2 MailGo长连接
+
+2011-03-02 V2.237
+1. 调整 MailGo
+
+2011-03-01 V2.236
+1. 增加 MailGo
+
+2011-03-01 V2.235
+1. 移动 LogLevelMail.GetSysRunInfo() 到 MonitorGo.GetSysRunInfo(), 并作适当修改
+2. 废除 Data4NetLogLevel.config 中的节点 <hasSystemProcessInfo>1</hasSystemProcessInfo>
+3. 废除 Data4NetLogLevel.config 中的节点 <hasSystemProcessInfoPerformanceCounter>Processor,% Processor Time,_Total;Memory,Available MBytes,</hasSystemProcessInfoPerformanceCounter>
+
+2011-02-28 V2.234
+1. 修改 MonitorHelper 为 MonitorGo
+2. 增加 MonitorGo.GetAllInfo()
+
+2011-02-26 V2.233
+1. 调整 MonitorHelper.GetTsLogs() 输出格式
+
+2011-02-26 V2.232
+1. 增加 XmlInnerTypeEnum
+2. 增加 XmlHelper.SimpleListAttr() 对 InnerXml InnerText 的支持
+
+2011-02-25 V2.231
+1. 增加 XmlTypeEnum
+2. 增加 XmlHelper.SimpleListAttr()
+3. 增加 XmlHelper.SimpleHashtableAttrByXmlString() 参数 keyIgnoreCase, attrIgnoreCase
+4. 增加 XmlHelper.SimpleDictionaryAttrByXmlString() 参数 keyIgnoreCase, attrIgnoreCase
+5. 增加 XmlHelper.SimpleSortedDictionaryAttrByXmlString() 参数 keyIgnoreCase, attrIgnoreCase
+6. 增加 XmlHelper.SimpleSortedListAttrByXmlString() 参数 keyIgnoreCase, attrIgnoreCase
+7. 增加 XmlHelper.SimpleHashtableAttrByXmlFile() 参数 keyIgnoreCase, attrIgnoreCase
+8. 增加 XmlHelper.SimpleDictionaryAttrByXmlFile() 参数 keyIgnoreCase, attrIgnoreCase
+9. 增加 XmlHelper.SimpleSortedDictionaryAttrByXmlFile() 参数 keyIgnoreCase, attrIgnoreCase
+10. 增加 XmlHelper.SimpleSortedListAttrByXmlFile() 参数 keyIgnoreCase, attrIgnoreCase
+
+2011-02-22 V2.230
+1. 修改 GetSortInt 为 GetSortInt32
+
+2011-02-22 V2.229
+1. 增加 GetMonitorCountModelSort 对 Dictionary<string, int> 的支持
+2. 增加 GetMonitorCountModelSort 对 KeyValuePair<string, double> 的支持
+3. 修改 GetMonitorCountModelSort 为 GetSortInt, GetSortdouble
+4. 调整 MonitorHelper.GetTsLogs() 输出格式
+5. 调整 MonitorHelper.GetTs() 返回值, 废弃 logstr 的返回
+
+2011-02-17 V2.228
+1. 调整 Monitor 对象日志文本的格式
+
+2011-02-15 V2.227
+1. 增加 ReadTypeEnum
+2. 调整 GetUrlReturnByType()
+
+2011-02-14 V2.226
+1. 修复 Monitor 统计数据不够精确的错误
+
+2011-02-14 V2.225
+1. 调整 Monitor 对象日志文本的格式
+
+2011-02-12 V2.224
+1. 增加 XmlHelper.SimpleSortedDictionaryAttrByXmlString()
+2. 增加 XmlHelper.SimpleSortedListAttrByXmlString()
+3. 增加 XmlHelper.SimpleSortedDictionaryAttrByXmlFile()
+4. 增加 XmlHelper.SimpleSortedListAttrByXmlFile()
+5. 废除 MonitorCountModel Class, 用 KeyValuePair<string, int> 代替
+
+2011-02-11 V2.223
+1. 增加 XmlHelper.SimpleDictionaryAttrByXmlString()
+2. 增加 XmlHelper.SimpleDictionaryAttrByXmlFile()
+
+2011-01-20 V2.222
+1. 修改 WebHelper.RemoteAddr 返回值中废弃0.0.0.0, 修改为string.Empty, 支持IPV6的情况
+2. 修改 WebHelper.LocalAddr 返回值中废弃0.0.0.0, 修改为string.Empty, 支持IPV6的情况
+3. 调整 MonitorUtility.GetRunTimeLevelKey(), 评级数据的细微调整
+
+2011-01-14 V2.221
+1. 优化 RegexHelper.ReplaceUrlKeyToEmpty() 内部正则表达式
+
+2011-01-13 V2.220
+1. 优化 RegexHelper.ReplaceUrlKeyToEmpty()
+
+2011-01-13 V2.219
+1. 增加 RegexHelper.ReplaceUrlKeyToEmpty()
+
+2011-01-12 V2.218
+1. 调整 MonitorSession Class 日志输出格式
+2. 调整 MonitorPage Class 日志输出格式
+
+2011-01-12 V2.217
+1. 增加 MonitorPage Class ProcessCount Max 统计, 即记录每分钟中最大的 ProcessCount 数据
+
+2011-01-11 V2.216
+1. 增加 LogLevel 中 GetSysRunInfo() 增加信息输出
+
+2011-01-11 V2.215
+1. 增加 DataHelper.GetExtensions()
+
+2011-01-10 V2.214
+1. 修改 DataHelper.GetDataRowValueToString(), 增加列集合参数
+2. 添加 DataHelper.GetDataRowValue()
+
+2011-01-01 V2.213
+1. 增加 LogLevel 文本路径配置对%yyyy %MM %dd %HH %mm %ss的支持, 并在存在%前缀时自动忽略无前缀%的转换
+
+2010-12-30 V2.212
+1. 优化 LogLevel, 增加配置可以在日志格式中输出PID (CurrentProcessID), 已支持IIS线程池中配置"最大工作进程数">1时的情况. 即同一个站点在IIS访问时会启用多个进程, 则需要日志按照进程独立记录以便防止发生文件占用和竞争使用.
+2. 调整 LogLevel.FormatMsg() 中PID信息的输出
+3. 增加 LogLevelUtility.PidCurrent
+4. 增加 LogLevel.PrintLogLevelRunInfo() 输出PID信息
+
+2010-12-14 V2.211
+1. 增加 LogLevel.PrintLogLevelRunInfo() 输出DLL版本信息
+2. 调整 LogLevel.PrintLogLevelRunInfo() 输出格式
+
+2010-12-13 V2.210
+1. 增加 LogLevel.FormatMsg() 物理路径的输出
+
+2010-12-10 V2.209
+1. 增加 ArrayHelper Class
+2. 增加 ArrayHelper.GetString()
+3. 增加 ArrayHelper.GetInt32()
+
+2010-12-10 V2.208
+1. 增加 DataHelper.CheckExtent()
+2. 修改 DateTimeHelper.CheckDateTimeExtent() 变为 DateTimeHelper.CheckExtent
+3. 增加 DataHelper.IsXXX() 返回 out value, 即转换后的数据
+
+2010-12-09 V2.207
+1. 调整 DKeyMd5 中 timeStep 单位由秒修改为毫秒, 即精度达到0.001秒
+2. 调整 DKeyMd5 中 timeStep 的数据类型, 由int变为long
+
+2010-12-09 V2.206
+1. 增加 DataHelper.GetDataRowValueToString()
+
+2010-12-03 V2.205
+1. 增加 SortTypeEnum
+2. 增加 MonitorUtility.GetMonitorCountModelSort() 排列顺序参数
+
+2010-12-02 V2.204
+1. 增加 ImageHelper.SaveIco(), 支持任意图片保存为ICO文件
+
+2010-12-02 V2.203
+1. 增加 DataHelper.GetDataViewByIdx()
+
+2010-12-02 V2.202
+1. 修复 SqlSimpleDevelop.GetSqlSpSimpleDevelop() 方法名字最后少一个p的bug
+
+2010-12-01 V2.201
+1. 优化 DKeyMd5, 增加支持自定义时间步长
+
+2010-12-01 V2.200
+1. 解决 FormActionFixerHelper.GetHttpMainUrlApplicationPath() BUG
+2. 解决 FormActionFixerHelper.GetHttpsMainUrlApplicationPath() BUG
+
+2010-12-01 V2.199
+1. 优化 DKeyMd5 Class
+
+2010-12-01 V2.198
+1. 增加 DKeyMd5 Class, 支持多种情况下使用的1分钟动态密码
+
+2010-11-30 V2.197
+1. 调整 ImageHelper.PostSubmitImage(), 增加分隔符传入的参数
+
+2010-11-30 V2.196
+1. 增加 ImageAddInfo Class
+2. 增加 ImageHelper.PostSubmitImage()
+3. 增加 ImageHelper.PostSaveImage()
+4. 增加 ImageHelper.PostShowImage()
+
+2010-11-30 V2.195
+1. 回复 GetRunTimeStart, GetRunTimeStop, GetRunTimeSpan, GetRunTimeLevelKey 等到 LogLevel, 为了保持兼容性, 但推荐使用 MonitorUtility 下的这些方法
+2. 增加 LogLevel 发送报警邮件时, 可以自动缓存最后9封邮件, 和第10封邮件在可以被发送时候整合在一份邮件中发送
+
+2010-11-29 V2.194
+1. 调整 MonitorHelper.GetTsLogs() 输出格式, 方便阅读
+
+2010-11-29 V2.193
+1. 调整为 LogLevelUtility Class 为外部不可访问, 提高组件安全性
+2. 增加 MonitorHelper.GetTs()
+3. 增加 MonitorHelper.GetTsLogs()
+4. 转移 GetRunTimeStart, GetRunTimeStop, GetRunTimeSpan, GetRunTimeLevelKey 等从 LogLevel 到 MonitorUtility
+5. 转移 MonitorUtility 到 Data4Net 下
+6. 转移 MonitorCountModel 到 Data4Net 下
+7. 修改 GetBinFileInfo 变为 GetBinFileInfoByWeb, 并转移到 MonitorHelper 下
+
+2010-11-28 V2.192
+1. 增加 MonitorPage Process Count;
+2. 调整 MonitorPage MonitorSession 内部逻辑, 防止任何情况的 while 无限循环;
+
+2010-11-23 V2.191
+1. 完善 ValidateCodeImg2 Class 注释
+2. 增加 WebHelper.XForwardedAddr
+3. 调整 WebHelper.RemoteAddr LocalAddr, 在任何情况都不返回 null, 如果是 null 则用 empty 表示
+
+2010-11-18 V2.190
+1. 增加 MD5 EncryptWeb() 方法
+
+2010-11-18 V2.189
+1. 增加 UrlHelper.ShortUrl() 外部传入自定义 key 参数
+
+2010-11-11 V2.188
+1. 增加 XmlHelper.SimpleHashtableAttrByXmlFile()
+2. 增加 XmlHelper.SimpleValueAttrByXmlFile()
+3. 增加 XmlHelper.SimpleValueInnerTextByXmlFile()
+4. 增加 XmlHelper.SimpleValueInnerXmlByXmlFile()
+
+2010-10-28 V2.187
+1. 增加 UrlHelper.ShortUrl() 短地址算法
+
+2010-10-26 V2.186
+1. 增加 MonitorPage.PageKeyList 自定义那些页面需要统计
+2. 调整 MonitorPage.ToPageCount(), PageName, PageKey调整为外部方法传入, 增加函数灵活性
+3. 调整 Monitor 日志输出格式
+
+2010-10-25 V2.185
+1. 修复 MonitorUtility.GetBinFileInfo() 中缺少换行自定义参数
+
+2010-10-25 V2.184
+1. 修复 MonitorUtility Class 中方法的命名错误
+
+2010-10-25 V2.183
+1. 增加 MonitorSession Class
+2. 增加 MonitorPage Class
+3. 增加 MonitorUtility Class
+4. 增加 MonitorCountModel Class
+
+2010-10-20 V2.182
+1. 增加 ImageHelper.IsImage() 中 Position = 0
+
+2010-10-10 V2.181
+1. 增加 XmlHelper.SimpleHashtableAttrByXmlString()
+
+2010-10-09 V2.180
+1. 增加 XmlHelper.SimpleValueAttrByXmlString()
+2. 增加 XmlHelper.SimpleValueInnerTextByXmlString()
+3. 增加 XmlHelper.SimpleValueInnerXmlByXmlString()
+
+2010-10-09 V2.179
+1. 修复 JsonConvert.DeserializeObject() 功能, 支持分号:前后具有空格的json格式数据
+
+2010-10-01 V2.178
+1. 去除 GetMsSqlServerDateTime_Cn()
+2. 去除 GetMsSqlServerSmallDateTime_Cn()
+3. 增加 GetMsSqlServerDateTime()
+4. 增加 GetMsSqlServerSmallDateTime()
+5. 调整 GetMsSqlServerDateTime 的 DefaultValue 为 minTime, 而非 1900-01-01
+
+2010-10-01 V2.177
+1. 增加 CheckDateTimeExtent()
+2. 优化 GetDateTime_Cn(), 内部使用正则表达式处理
+
+2010-09-30 V2.176
+1. FormatMsgWeb() 增加 CultureInfo.CurrentCulture.Name
+2. FormatMsgWin() 增加 CultureInfo.CurrentCulture.Name
+3. GetDateTime_Cn() 增加 Debug 和自定义出错信息
+4. GetDateTime_Cn() 支持默认无月无日信息的日期类型
+5. GetDateTime_Cn() 内部处理中 Convert.ToInt32 替换成 int.Parse
+
+2010-09-27 V2.175
+1. 增加 Data4Net.Json namespace
+2. 增加 JsonConvert Class
+3. 增加 JsonObject Class
+4. 增加 JsonArray Class
+
+2010-09-21 V2.174
+1. 整合 BeITMemcached
+
+2010-09-20 V2.173
+1. 优化 LogLevel 内存使用率, 减少使用 StringBuilder 在对象实例用的使用来减低内存占用的过多的问题
+2. 优化 LogLevel 内存问题后, 带来大约200百万次单线线程测试时, 有大约0.5-1.0秒的性能损失
+3. LogLevel 配置单个日志文件，日志缓存配置为20M(FileMsgWriteSize=20000000,ThreadArrayMax=100)，循环200万次日志接口方法调用，方法调用耗时16.1秒，文件完全写入耗时19.1秒，日志文件450M+，无一次日志丢失，CPU 60%；
+
+2010-09-20 V2.172
+1. 增加 LogLevel.ToLog 对实时输入的 LevelKey 记录, 为PrintLogLevelRunInfo提供更多信息
+
+2010-09-19 V2.171
+1. 调整 LogLevel 读取1.0配置文件程序, 修复兼容更老的1.0配置的Bug
+
+2010-09-19 V2.170
+1. 调整 LogLevel 读取1.0配置文件程序, 兼容更老的1.0配置
+
+2010-09-10 V2.169
+1. 调整 LogLevel 中 StringBuilder 的初始容量设置, 减少内存使用量
+
+2010-09-09 V2.168
+1. 增加 LogLevel 中 StringBuilder 的初始容量设置, 提高性能
+
+2010-09-09 V2.167
+1. 修复 LogLevel 配置相对目录时多的一个斜杠
+2. 修改 LogLevel 部分极少字符串的 StringBuilder 为 string, 提高性能
+
+2010-09-09 V2.166
+1. 增加 LogLevel.ToLog() LevelKeys数组形式, 提高性能
+2. 调整 LogLevel.ToLogAsync() LevelKeys 变为 LevelKeyItem string[] 形式
+
+2010-09-08 V2.165
+1. 去除 LogLevelUtility.FormatFilePathByDate()
+2. 增加 LogLevelFile.FormatFilePathByDate()
+3. 优化 FormatFilePathByDate 性能, 去除没有配置关键字时的无用 replace 操作
+
+2010-09-06 V2.164
+1. 调整 LogLevel.GetRunTimeLevelKey(), 启用 fail poor fair average good excellent 评级
+
+2010-09-06 V2.163
+1. 优化 LogLevel 内部处理性能
+2. 增加 LogLevel.AsyncToLogRuning() 为 null 判断, 防止出错
+
+2010-09-04 V2.162
+1. 调整 LogLevel.PrintLogLevelRunInfo(), 避免安全隐患
+
+2010-09-04 V2.161
+1. 增加 LogLevel.ToLogAsync() 异步方法
+
+2010-09-03 V2.160
+1. 优化 LogLevelMail.ToMail() 增加双锁, 提供并发性能
+2. 调整 LogLevelMail.ToMail() 中间隔时间比较方法, 使用 logTime 取代 DateTime.Now 作为当前时间
+
+2010-09-01 V2.159
+1. 优化 LogLevel 文件名日期格式化处理方式, 提供日志写入性能
+2. 增加 LogLevelUtility.FormatFilePathByDate()
+3. LogLevel性能测试结果：配置单个日志文件，日志缓存配置为20M(FileMsgWriteSize=20000000,ThreadArrayMax=100)，循环200万次日志接口方法调用，方法调用耗时19秒，文件完全写入耗时22秒，日志文件450M+，无一次日志丢失；
+
+2010-09-01 V2.158
+1. 增加 DES RC2 Rijndael TripleDES 可设置填充模式
+2. 增加 DES RC2 Rijndael TripleDES 可设置Key String的二进制获取的字符编码形式
+
+2010-08-27 V2.157
+1. 在优化了 Loglevel 内部数据对象后调整 Loglevel.PrintLogLevelRunInfo() 显示数据
+2. 调整 Loglevel.ToLogOnEndApp() 输出信息格式
+
+2010-08-27 V2.156
+1. 增加 LogLevelData 和 StringBuilder 在写入文本后设置为 null
+
+2010-08-27 V2.155
+1. 优化 LogLevel 日志堆栈变量内部使用方式, 节约日志内存中使用数量和转移次数
+2. 修改 LogLevelData.LogContent 变量类型由 string 变为 StringBuilder
+3. 增加 LogLevelData.IsLogContentMax
+
+2010-08-25 V2.154
+1. 进一步提高 LogLevel LevelKey 处理性能, 当然提高幅度甚微
+2. 通过技术避免配置多个LogLevel LevelKey后导致的性能甚微的性能衰减现象, 使其基本不受数量多少的影响。
+3. 增加 LogLevel 构造函数的执行次数统计
+4. 增加 LogLevel 配置文件使用类型统计
+5. 增加 LogLevelUtility Class
+
+2010-08-24 V2.153
+1. 增加 LogLevel 出错日志的显示条数, 由1增加到20
+2. 优化 LogLevel 初始化数据代码
+3. 提高 LogLevel LevelKey 处理性能, 当然提高幅度甚微
+
+2010-08-21 V2.152
+1. 优化 LogLevel 中 Mail 处理的内存问题, 主动释放 MailMessage 对象
+
+2010-08-21 V2.151
+1. 优化整理 NetHelper.SendMail()
+2. 增加 LogLelvel 中 Mail的smtp配置port信息
+3. 增加 NetHelper.GetMailMessage()
+
+2010-08-12 V2.150
+1. 增加 IOCPSafeThreadPool Class
+
+2010-08-11 V2.149
+1. 增加 IoHelper.SaveSerializeObjToBinFile()
+2. 增加 IoHelper.GetSerializeObjByBinFile()
+
+2010-08-09 V2.148
+1. 增加 LogLevel 中 File, Mail Thread 的属性.IsBackground = true;，保证程序主线程退出后可以正常关闭程序
+
+2010-08-09 V2.147
+1. 增加 LogLevel 对相对目录的支持
+
+2010-08-06 V2.146
+1. HandlersPageExecuteTime 增加 BeginRequestMethod
+2. ModulePageExecuteTime 增加 BeginRequestMethod
+
+2010-08-05 V2.145
+1. 增加 LogLevel 中 mail 输出的 process list 针对 process name 的排序
+
+2010-08-05 V2.144
+1. 增加 LogLevel 中 ToLog 增加标识信息字段
+2. 增加 LogLevel 中 mail 报警时 title 输出标识信息的值
+3. 增加 LogLevel 中 PrintLogLevelRunInfo() 功能
+4. 增加 LogLevel 中 PrintLogLevelRunInfo() 可以传入参数 nl
+
+2010-07-21 V2.143
+1. 转正 ValidateCodeImg_Ref01.cs 转正为 ValidateCodeImg2.cs
+
+2010-07-21 V2.142
+1. 增加 ValidateCodeImg_Ref01.cs 代码参考类
+
+2010-07-20 V2.141
+1. 增加 DataHelper.StringFormatExUrlEncode()
+
+2010-06-04 V2.140
+1. 修复 PageHelper.PageNameWithAllPath BUG
+
+2010-05-27 V2.139
+1. 去除 DataHelper.SetChallenge()
+
+2010-05-07 V2.138
+1. 增加 DateTimeHelper.DateFormat()
+
+2010-05-05 V2.137
+1. 增加 DateTimeHelper.IsDateTime_Cn() 参数 minValue, maxValue 的支持
+2. 增加 DateTimeHelper.GetDateTime_Cn() 参数 minValue, maxValue 的支持
+3. 增加 DateTimeHelper.GetMsSqlServerDateTime_Cn()
+4. 增加 DateTimeHelper.GetMsSqlServerSmallDateTime_Cn()
+
+2010-05-05 V2.136
+1. 优化 DateTimeHelper.GetDateTime_Cn(), 支持只要是按照 年 月 日 小时 分钟 秒 毫秒 排列的任何字符串，分隔符可以是 ' ', '-', ':', '.', '/', '\\', ','
+2. 优化 DateTimeHelper.IsDateTime_Cn(), 支持只要是按照 年 月 日 小时 分钟 秒 毫秒 排列的任何字符串，分隔符可以是 ' ', '-', ':', '.', '/', '\\', ','
+
+2010-05-05 V2.135
+1. 修改 DateTimeHelper.IsDate_CN_Regex() 为 DateTimeHelper.IsDateRegex_Cn()
+2. 修改 DateTimeHelper.IsTime_CN_Regex() 为 DateTimeHelper.IsTimeRegex_Cn()
+3. 修改 DateTimeHelper.IsDateTime_CN_Regex() 为 DateTimeHelper.IsDateTimeRegex_Cn()
+4. 修改 DateTimeHelper.GetDateTime_CN() 为 DateTimeHelper.GetDateTime_Cn()
+5. 修改 DateTimeHelper.IsDateTime_CN() 为 DateTimeHelper.IsDateTime_Cn()
+
+2010-05-05 V2.134
+1. 增加 DateTimeHelper Class
+1. 增加 DateTimeHelper.IsDate_CN_Regex()
+2. 增加 DateTimeHelper.IsTime_CN_Regex()
+3. 增加 DateTimeHelper.IsDateTime_CN_Regex()
+4. 增加 DateTimeHelper.GetDateTime_CN()
+5. 增加 DateTimeHelper.IsDateTime_CN()
+
+2010-04-30 V2.133
+1. 优化 LogLevel, 增加内部全局换行符号变量
+2. 优化 XML 注释文字, 通过工具WorkTools生成
+
+2010-04-30 V2.132
+1. 去除 LawlessesSql 通过 config 文件配置功能
+2. 新增 ValidateCodeImgData Class
+3. 优化 ValidateCodeImg Class, 支持独立 xml config 文件配置 (Data4NetValidateCodeImg.config)
+
+2010-04-28 V2.131
+1. 因为支持COM以为的DLL, 修改 AssemblyComHelper 为 AssemblyHelper
+2. 增加 AssemblyComHelper.GetWebserviceCs()
+3. 增加 AssemblyComHelper.GetWebserviceDll()
+4. 增加 AssemblyComHelper.InvokeWebservice()
+5. 增加 XmlHelper.GetStringByXmlSerializer()
+
+2010-04-28 V2.130
+1. 增加 AssemblyComHelper.GetComFilePath()
+
+2010-04-28 V2.129
+1. 优化 AssemblyComHelper Class
+
+2010-04-28 V2.128
+1. 增加 AssemblyComHelper Class
+
+2010-04-25 V2.127
+1. 修复 ImgHelper.GetThumbnailImage() Bug一个
+
+2010-04-24 V2.126
+1. LogLevel 2.0 版本, 增加 Data4NetLogLevel.config 单独XML文件配置方式
+2. 增加 XmlHelper.GetXmlAttributes()
+3. 增加 XmlHelper.GetXmlInnerText()
+
+2010-04-14 V2.125
+1. 在公司完全安装版本 visual studio 2010 中打开，并编译版本
+
+2010-04-14 V2.124
+1. 解决方案升级成 visual studio 2010 版本
+
+2010-04-13 V2.123
+1. 增加 SqlSimpleDevelop
+2. 增加 SqlSpSimpleDevelop
+
+2010-04-09 V2.122
+1. 增加 LogLevel 配置日志文件编码功能
+
+2010-04-08 V2.121
+1. 修正 FormActionFixer : HtmlTextWriter 注释说明
+2. 修改 GetRunTimeLevelKey 返回的 levelKey，由首字母大写修改为全部小写
+
+2010-04-07 V2.120
+1. 优化 LogLevel
+2. 优化 LogLevelFile
+3. 优化 LogLevelMail
+
+2010-04-06 V2.119
+1. 优化 ImageHelper Class
+2. 对 ImageHelper.GetThumbnailImage() 增加图片水印功能
+
+2010-04-06 V2.118
+1. 增加 DataHelper.GetMsSqlServerDateTime
+2. 增加 DataHelper.GetMsSqlServerSmallDateTime
+
+2010-03-04 V2.117
+1. 优化 LogLevel Class, 做了重大的结构优化
+
+2010-02-02 V2.116
+1. 增加 DataHelper.GetSpellCodeChar()
+1. 增加 DataHelper.GetSpellCode()
+
+2010-02-02 V2.115
+1. 支持多行数组式配置, Data4NetLogLevelMailToEmail 
+2. 支持多行数组式配置, Data4NetLogLevelMailTitle 
+
+2010-01-19 V2.114
+1. 增加 PageExecuteTimeData.Timewatch
+2. 增加 ModulePageExecuteTime.IsStopwatch
+3. 增加 HandlersPageExecuteTime.IsStopwatch
+4. 修复 LogLevel.GetRunTimeStop() 的内部返回时间, 由long修改为double
+
+2010-01-19 V2.113
+1. 增加 LogLevel.GetRunTimeStart()
+2. 增加 LogLevel.GetRunTimeStop()
+3. 增加 LogLevel.GetRunTimeLevelKey()
+
+2009-12-23 V2.112
+1. 增加 DataHelper.IsInt16
+2. 增加 DataHelper.IsUInt16
+3. 增加 DataHelper.IsUInt32
+4. 增加 DataHelper.IsUInt64
+5. 增加 DataHelper.GetInt16
+6. 增加 DataHelper.GetUInt16
+7. 增加 DataHelper.GetUInt32
+8. 增加 DataHelper.GetUInt64
+9. 增加 DataHelper.IsSingle
+10. 增加 DataHelper.GetSingle
+
+2009-12-16 V2.111
+1. 增强 PageHelper.AlertFormHead(), PageHelper.AlertFormFoot() 中key的唯一性
+
+2009-12-16 V2.110
+1. 增加 PageHelper.AlertFormHead()
+2. 增加 PageHelper.AlertFormFoot()
+
+2009-12-14 V2.109
+1. 增加 LogLevel.FormatMsgWeb try...catch..., 保持进程不会异常退出
+2. 增加 LogLevel.FormatMsgWin try...catch..., 保持进程不会异常退出
+
+2009-12-14 V2.108
+1. 修正 LogLevel.FormatMsgWeb 内部为null的bug
+
+2009-12-12 V2.107
+1. 取消 LogLevel 日志信息中的空行换行
+
+2009-12-12 V2.106
+1. 增加 LogLevel 中Session,Application,Cache计数值
+2. 增加 LogLevel 中WebApp Server Info List
+3. 增加 LogLevel.Data4NetLogLevelMailHasSystemProcessInfoPerformanceCounter 配置与记录
+
+2009-12-11 V2.105
+1. 增加 LogLevelData 的 [Serializable]
+2. 增加 QueueSolidData 的 [Serializable]
+3. 增加 HiLogTextData 的 [Serializable]
+4. 增加 PageExecuteTimeData 的 [Serializable]
+
+2009-12-11 V2.104
+1. 增加 WebHelper.ResponseAddHeader_BlockIframeSessionLost()
+2. 增加 BusinessResult.ReturnObjNo
+3. 增加 BusinessResult 的 [Serializable]
+
+2009-12-09 V2.103
+1. 增加 HandlersPageExecuteTime 中传递 HttpContext
+
+2009-12-09 V2.102
+1. 增加 PageExecuteTimeData.sender
+2. 增加 PageExecuteTimeData.e
+
+2009-12-08 V2.101
+1. 增加 PageHelper.GetQueryStringGet()
+
+2009-12-05 V2.100
+1. 增加 LogLevel.GetRunTimeSpan()
+
+2009-12-04 V2.99
+1. 增加 Data4NetValidateCodeIsOpen 功能
+2. 增加 Data4NetLogLevelIsOpen 功能
+3. 增加 Data4NetLogLevelFileLevel 功能
+4. 增加 Data4NetLogLevelMailLevel 功能
+
+2009-12-03 V2.98
+1. 把 Data4Net 下的所有 Class 移动到 Data4Net.Utility 下, 但 namespace 不变
+2. 增加 LogLevel.PrintLogLevelRunInfo()
+
+2009-11-27 V2.97
+1. 容错支持 ValidateCodeImg._CodeNoiseLineOffsetX, 当等于0时自动设置为1, 方式除0问题出现
+
+2009-11-24 V2.96
+1. 增加 WebControlHelper.AddDropDownListValue()
+
+2009-11-03 V2.95
+1. 重载 NetHelper.GetWebResponse(), 支持WebRequest和HttpWebRequest两种参数
+
+2009-11-03 V2.94
+1. 增加 NetHelper.GetWebResponse()
+
+2009-11-02 V2.93
+1. 优化 LogLevel 配置 LogLevelFilePath, 增加分段式配置方式
+2. 增加 LogLevel 配置 LogLevelMsgInitialTime
+3. 增加 HiLogText Class
+4. 增加 HiLogText.AddLogOnEndApp()
+
+2009-10-21 V2.92
+1. 增加 LogLevel.MailContentMethod 事件
+2. 修复 LogLevel.ToLog 当emailNum大于配置邮件总数时, 对数组长度做判断, 大于0才发送邮件
+
+2009-09-29 V2.91
+1. 优化 RandomHelper.GetRndIntDistinct(), 实现两种效率表现的随机函数
+2. 增加 RandomHelper.GetRndStrDistinct()
+3. 增加 RandomHelper.GetRndInt()
+4. 增加 RandomHelper.GetRndIntDistinct()
+5. 增加 DataHelper.AddValue()
+
+2009-09-27 V2.90
+1. 修改 QueueArrayTextHelper 为 QueueSolid
+2. 增加 QueueSolidData
+3. 优化 QueueSolid
+
+2009-09-25 V2.89
+1. 增加 QueueArrayTextHelper Class
+
+2009-09-23 V2.88
+1. 增加 HandlersPageExecuteTime Class
+2. 增加 ModulePageExecuteTime Class
+3. 增加 PageExecuteTimeData Class
+
+2009-09-21 V2.87
+1. 优化 LogLevel 中FormatMsg对currentUser不错数据处理, 不增加前缀后者后缀, 让外部应用更加灵活使用格式
+
+2009-09-21 V2.86
+1. 优化 LogLevel 中Process对象处理, 增加Close()该对象
+2. 增加配置 LogLevelMailHasSystemProcessInfo="1", 在邮件中包含WebApp系统所有进程信息
+3. 修改记录日志格式, 由 [xxx]value 修改为 [xxx=value]
+4. 调整 LogLevel 写文件、发邮件单独线程维护
+5. 增加 LogLevel.AsyncDelegateLogLevelError 事件用于差错
+6. 增加 LogLevelData Class
+7. 修改 IoHelper.FormatFilePathByDate(), 增加对fff的格式化支持
+8. 优化 LogLevel 中StringBluider对象当null时处理
+
+2009-09-18 V2.85
+1. 调整 LogLevel 写文件锁机制, 解决BUG
+
+2009-09-18 V2.84
+1. 调整 LogLevel 写文本改成异步线程
+2. 调整 LogLevel 发邮件改成异步线程
+3. 调整 LogLevel 写文本函数, 如果同时有多个对象在写入文本，在强制拆分写入多个文本
+4. 调整 LogLevel 写文本函数, 使用FileStream直接二进制写入
+5. 调整 LogLevel.ToLogOnEndApp(), 写入日志文件也通过异步实现
+
+2009-09-17 V2.83
+1. 调整 ValidateCodeImg, 增加 Data4NetValidateCodeNoiseLineOffsetX 配置
+2. Config/Data4NetConfigurationSectionHandler.cs 文件名修改为 Config/ConfigurationSectionHandler.cs
+3. 新增 ConfigurationSectionHandler Class 功能和 Data4NetConfigurationSectionHandler Class 完全一致
+4. Data4NetConfigurationSectionHandler Class 修改为继承 ConfigurationSectionHandler Class
+5. 内部调用Data4NetConfigurationSectionHandler的全部修改为ConfigurationSectionHandler
+6. LogLevel Class 调整 _mailLastSenTime 修改为 _mailLastSendTime
+
+2009-09-14 V2.82
+1. 调整 LogLevel.FormatMsgWeb() 分隔符, 方便用正则表达式对日志文件分析
+2. 调整 LogLevel.FormatMsgWin() 分隔符, 方便用正则表达式对日志文件分析
+3. 增加 WebHelper.RawUrlWithAll
+4. 调整 LogLevel.FormatMsgWeb() 去除 Web.WebHelper.Url 信息
+4. 调整 LogLevel.FormatMsgWeb() 增加 Web.WebHelper.RawUrlWithAll 信息
+5. 对 WebHelper.Url,AbsoluteUri,RawUrl,RawUrlQueryString,RawUrlQuestionQueryString,UrlReferrer,ScriptName 增加了Current和Request为null的判断
+6. 增加 WebHelper.AbsoluteUri
+7. 增加 WebHelper.RawUrlQueryString
+8. 增加 WebHelper.RawUrlQuestionQueryString
+9. 调整 PageHelper.PageNameWithAllQueryString 内部使用 WebHelper.RawQuestionQueryString
+10. 调整 PageHelper.PageNameWithAllPathAllQueryString 内部使用 WebHelper.RawQuestionQueryString
+11. 增加 PageHelper.GetPagerUrl
+12. 增加 PageHelper.GetPagerUrlKey
+13. 取消 Pager.UrlPg 默认值{pg}
+14. 取消 Pager.Url自动转化成小写功能
+15. 调整 Pager.RenderPrevious 在减去下N页后超出范围则不显示
+16. 调整 Pager.RenderNext 在累加下N页后超出范围则不显示
+
+2009-09-08 V2.81
+1. 修改版本信息, 启用X.X版本方式
+
+2009-09-07 V2.80.258
+1. 增加 ValidateCodeImg.CreateValidateCodeImg() 中try finally时dispose对象的能力, 防止中间出错后导致内存资源不释放
+
+2009-08-27 V2.80.257
+1. 增加 NetHelper.LocalAddrStringAll()
+2. 修改 LogLevel Class 部分日志格式
+3. 完善 NetHelper.SendMail()
+
+2009-08-24 V2.80.256
+1. 修复 CheckHelper.IsContainsStrong() Bug
+
+2009-08-24 V2.80.255
+1. 增加 CheckHelper.IsContainsStrong(string allowValues, string value, string separtor)
+2. 修复 CheckHelper.IsAllowValue() 对string.Empty的支持
+3. 修复 CheckHelper.IsContains() 对string.Empty的支持
+
+2009-08-14 V2.80.254
+1. 修改 Web.WebHelper.RemoteAddr
+2. 修改 Web.WebHelper.LocalAddr
+3. 修改 Web.WebHelper.SessionID
+
+2009-08-14 V2.80.253
+1. 增加 Web.WebHelper.SessionID
+2. LogLevel Web方式增加记录SessionID
+3. LogLevel 记录信息分隔符由" "修改为"|"
+
+2009-08-13 V2.80.252
+1. 修复 LogLevel 当文件Data4Net.config不存在全局变量初始化错误的Bug
+
+2009-08-13 V2.80.251
+1. 增加 DataHelper Class
+2. 增加 LogLevel Class
+3. 修改 DPHelper 继承 DataHelper, DataHelper不包含的方法在DPHelper中保留
+4. 修改 ErrLogHelper 继承 LogLevel, LogLevel不包含的方法在ErrLogHelper中保留
+
+2009-08-07 V2.80.250
+1. 增加 CheckHelper.IsContains(string allowValues, string value, string separtor)
+
+2009-08-06 V2.80.249
+1. 增加 WebControlHelper.SetDropDownListSelectedByValue() 方法
+
+2009-07-17 V2.80.248
+1. 修改 ValidateCodeImg, 由png改为jpg, 增加兼容性
+
+2009-06-30 V2.80.247
+1. 增加 FormActionFixerHelper Class
+
+2009-06-10 V2.80.246
+1. 公开 NetHelper.GetUrlReturnByType()
+2. NetHelper.GetUrlReturnByType()增加对HttpWebRequest和userAgent支持
+
+2009-03-25 V2.80.245
+1. 增加 LogLevel.ToLogOnEndApp()
+
+2009-03-25 V2.80.244
+1. 增加 ErrLogHelper.LogFatal
+
+2009-03-25 V2.80.243
+1. 增加 ScheduledTaskHelper.OnAddLog 事件, 实现通过delegate和event两种方式输出日志
+
+2009-03-25 V2.80.242
+1. 修改 ErrLogHelper.ToLog, fileNum,emailNum大于等于0且大于数组长度时, 则按照0的规则记录日志
+2. 修改 ErrLogHelper.LogError, 如果配置了第二个邮件规则, 则按照第二个邮件规则发送
+
+2009-03-23 V2.80.241
+1. 升级 ErrLogHelper, 支持Trace,Debug,Info,Warn,Error
+2. 升级 ErrLogHelper, 支持多个文件日志
+3. 升级 ErrLogHelper, 支持不同等级配置是否发送或不同email主题和地址
+
+2009-03-11 V2.80.240
+1. 增加 FormActionFixer Class
+
+2009-03-11 V2.80.239
+1. 修改 ValidateCodeImg, 增加对多种配置验证码的支持
+
+2009-03-05 V2.80.238
+1. 修改 CacheHelper.GetData<T>(string key, GetCacheDataMethod<T> data, ProcessSetOnHasCacheDataMethod<T> proc, double cacheSeconds, bool isAddKeyList)
+2. 修改 CacheHelper.GetData<T>(string key, GetCacheDataMethod<T> data, ProcessSetWithTimeOnHasCacheDataMethod<T> proc, double cacheSeconds, bool isAddKeyList)
+
+2009-03-04 V2.80.237
+1. 修改 CacheHelper.AddData() 增加函数返回值 object
+2. 增加 CacheHelper.InsertData()
+
+2009-02-24 V2.80.236
+1. ConstantDefine 属性由 publice 变为默认值(私有)
+2. 增加 UNIQUE_NAME 常量
+
+2009-02-23 V2.80.235
+1. 优化 ValidateCodeImg, 增加对字体显示位置配置
+2. 增加 ConstantDefine, 并开始使用 PRODUCT_NAME 替换 Data4Net
+
+2009-02-20 V2.80.234
+1. 增加 SnapLibrary 类
+
+2009-02-05 V2.80.233
+1. ErrLogHelper.LogDebug 写入文件时增加 lock 功能
+
+2009-01-21 V2.80.232
+1. 修改 WebHelper Class, 增加对https的支持
+
+2009-01-07 V2.80.231
+1. 修改 ScheduledTaskHelper Class, 支持多个ScheduledTaskHelper实例, 多个Timer。
+
+2008-12-30 V2.80.230
+1. 修改 CacheHelper cacheSeconds 由 long 变为 double
+
+2008-12-30 V2.80.229
+1. 修改 CacheHelper cacheSeconds 由 int 变为 long
+
+2008-12-26 V2.80.228
+1. 优化 ErrLogHelper Class
+
+2008-12-25 V2.80.227
+1. 优化 HiPerfTimer Class
+2. 新增 SecondTimer Class
+
+2008-12-22 V2.80.226
+1. 优化 ScheduledTaskHelper Class
+
+2008-12-19 V2.80.225
+1. 优化 ScheduledTaskHelper Class
+
+2008-12-17 V2.80.224
+1. 增加 WebHelper.GetAllRequestQueryToLog()
+2. 增加 WebHelper.GetAllRequestFormToLog()
+
+2008-12-05 V2.80.223
+1. 修改 ErrLogHelper.GetErrMsg(), 当无customInfo这个时不进行换行记录
+
+2008-11-24 V2.80.222
+1. 增加 CheckBoxList取值及勾选上
+
+2008-11-21 V2.80.221
+1. 优化 URLRewriter, 自适应二级域名或虚拟目录重定向
+
+2008-11-21 V2.80.220
+1. 增加 URLRewriter
+
+2008-11-20 V2.80.219
+1. 优化 WriteFile(string filePath, byte[] byteFileStream, FileMode fm, FileAccess fa)
+
+2008-11-19 V2.80.218
+1. 增加 WriteFile(string filePath, byte[] byteFileStream)
+
+2008-11-19 V2.80.217
+1. 修改 IsNullDataSet IsNullDataTable
+
+2008-11-19 V2.80.216
+1. 增加 PageHelper.AlertClose()
+
+2008-11-11 V2.80.215
+1. 增加 DPHelper.GetSplitInfoString()
+
+2008-10-29 V2.80.214
+1. 修改 CacheHelper.GetData() 中 isAddKeyList 默认值由 true 修改为 false
+2. 增加 ProcessSetWithTimeOnHasCacheDataMethod
+3. 增加针对 ProcessSetWithTimeOnHasCacheDataMethod 的 CacheHelper.GetData() 重载
+
+2008-10-27 V2.80.213
+1. 按照 CacheManager 新增 CacheHelper 一份同样的拷贝
+2. 修改 CacheHelper.GetData CacheHelper.AddData 时间间隔参数由分变为秒
+3. 去除 CacheManager.cs 文件, 把 CacheManager Class 拷贝到 CacheHelper.cs 中
+
+2008-09-25 V2.80.212
+1. 增加 WebHelper.MainUrlApplicationPath
+
+2008-09-24 V2.80.211
+1. 优化 LogErrHelper, 在文本日志记录出错时可以自我恢复
+
+2008-09-11 V2.80.210
+1. 修改 LogErrHelper.FormatMsg() 抛出的 errorId 由20位含有时间数字变为直接返回GUID, 日志性能由原先2.7M/S提高到5.5M/S
+
+2008-09-10 V2.80.209
+1. 重载 IoHelper.FormatFilePathByDate()
+2. 修复 LogErrHelper.LogDebug()
+3. 优化 LogErrHelper 的文本日志记录方式, 文本文件始终 Open
+4. 统一 LogErrHelper 一次日志的时间, 日志内容和文件名时间保持一致
+
+2008-09-08 V2.80.208
+1. 去除 IoHelper.WriteDateFile()
+2. 增加 IoHelper.FormatFilePathByDate()
+3. 增加 Data4NetLogLevelFileMsgWriteSize 配置
+4. 增加达到日志写入内容大小后,进行一次性写入,降低IO开销
+
+2008-09-03 V2.80.207
+1. BusinessResult 增加 DebugMsg 属性
+
+2008-08-29 V2.80.206
+1. SqlInjection.FilterRquest 增加异常输出 value
+2. SqlInjection.FilterIdx 增加异常输出 value
+
+2008-08-26 V2.80.205
+1. 优化ValidateCodeImg, 增加字体渐变、粗体、斜体, 修改噪点生成方式
+
+2008-08-13 V2.80.204
+1. 增加 WebControlHelper.ShowConfirm()
+
+2008-07-15 V2.80.203
+1. 增加 SqlInjection.FilterRquest
+2. 增加 SqlInjection.FilterIdx
+
+2008-07-10 V2.80.202
+1. 增加对IE8不兼容性说明, Data4Net.Controls.Web.DropDownListExtend 不兼容IE8 Beta1不建议使用
+2. 修改版本说明文字, 由2006 - 2008修改为2006-2008
+
+2008-07-04 V2.80.201
+1. 修正版本号规则
+2. 优化 Data4NetConfigurationSectionHandler 带有 default value 值输出功能
+3. 增加 Data4NetValidateCodeImgWidth, Data4NetValidateCodeImgHeigth 配置
+4. 合并文件 ValidateCodeHelper.cs 到 ValidateCodeImg.cs 中
+5. 增加 Data4NetValidateCodeSessionID 配置
+
+2008-07-03 V2.80.19
+1. 增加 PageHelper.PageNameWithAllQueryString
+2. 增加 PageHelper.PageNameWithAllPathAllQueryString
+
+2008-07-03 V2.80.18
+1. 修改 NetHelper.SendMail, 增加自定义 Attachment 传入
+
+2008-07-01 V2.79.17
+1. 增加 RegexHelper.FilterHtmlEditToUrl, 把Html Edit编辑出的Url字符串过滤成string类型的Url
+
+2008-06-27 V2.79.16
+1. 修改 NetHelper.SendMail 支持发送附件
+
+2008-06-26 V2.79.15
+1. 修改 NetHelper.SendMail 支持自定义邮件编码
+
+2008-06-26 V2.79.14
+1. 增加 CheckHelper.IsAllowValue
+2. 增加 CheckHelper.IsContains
+
+2008-06-06 V2.79.13
+1. 修复 DropDownListExtend Firefox 问题
+
+2008-06-05 V2.79.12
+1. 增加 PageHelper.PageName
+1. 增加 PageHelper.PageNameWithAllPath
+
+2008-06-02 V2.79.11
+1. 优化SetEnterControl, document.all.xx 修改为 document.getElementById('xx')
+
+2008-05-29 V2.79.10
+1. 优化CreateExcel, 表头无须输入, 直接使用DataTable表头名Caption
+2. 优化CreateExcel, Style 集成到 Caption 中设置
+
+2008-05-29 V2.79.9
+1. 增加 WebControlHelper.GetHtml(Control ctrl)
+2. 增加 WebHelper.CreateExcel(DataTable dt, string headers, string fileName)
+3. 增加 通过 DataGird Repeater GridView 等导出 Excel 例子
+
+2008-05-29 V2.79.8
+1. 分页组件Pager当TextXxxx属性为Empty时, 不在页面上呈现, 防止使用CSS样式有边距后出来空心框
+
+2008-05-15 V2.79.7
+1. 增加分页组件Pager上当前页自定义样式
+2. 分页组件Pager TextNumFirst TextNumLast TextNumCurrent 默认样式为 TextNum
+
+2008-05-14 V2.79.6
+1. 增加分页组件Pager上X页下X页功能
+1. 增加分页组件Pager自定义间隔符号功能
+
+2008-05-14 V2.79.5
+1. 增加分页组件基类
+
+2008-05-14 V2.79.4
+1. 增加分页组件可自定义页数字首页样式
+2. 增加分页组件可自定义页数字尾页样式
+
+2008-05-14 V2.79.3
+1. 增加分页组件可自定义页数字样
+
+2008-05-08 V2.79.2
+1. DropDownListExtend Class 修改 Values 为 Items, 保持和 DropDrowList Items 属性一致
+2. DropDownListExtend Class 修改部分 absolute 为 relative
+3. DropDownListExtend Class 增加 DropDownListButtonTop 属性
+4. DropDownListExtend Class 修改内部 DropDownList 为 base.ClientID + "_Select"
+
+2008-05-07 V2.79.1
+1. DropDownListExtend Class 去除 Values 存放在Session中, 并且非序列化不能存放在ViewState中, 因此每次页面都需要重新加载Values
+
+2008-05-07 V2.79.0
+1. 增加 DropDownListExtend Class
+
+2008-05-04 V2.78.3
+1. Web.LoginSsoLocalHelper Class 修改Response.Redirect为window.top.location.href方式, 支持Iframe结构页面
+
+2008-05-01 V2.78.2
+1. Web.LoginSsoLocalHelper Class 支持asp, aspx两种MD5方式
+2. Web.LoginSsoLocalHelper Class 增加 xml 注入攻击防范
+3. Web.LoginSsoLocalHelper Class 当找不到互相约定的 key, 直接返回
+4. Web.LoginSsoLocalHelper Class 日志格式修改
+5. Web.LoginSsoLocalHelper Class 增加 urlgo is empty or null 信息
+
+2008-05-01 V2.78.1
+1. 修改 Web.LoginSsoLocalHelper Class UrlGo 得到方式, 去除从XML文件中得到方式
+2. 增加对MD5编码设置, 默认为GB2312
+3. appId去除Session记录方式, 改由asp二次传递过来, 减少Session开销
+
+2008-04-30 V2.78.0
+1. 增加 Web.LoginSsoLocalHelper Class
+
+2008-04-30 V2.77.2
+1. 增加 Ado.DataRecordHelper Class
+
+2008-04-30 V2.77.1
+1. 增加 ErrLogHelper 配置文件 Data4Net.config 区分 Warn, Error 的 Email Title
+
+2008-04-21 V2.77.0
+1. 增加 CaseConvert Class
+
+2008-04-18 V2.76.2
+1. 修改 WebHelper.ResponseFile 注释
+
+2008-04-18 V2.76.1
+1. 修改 WebHelper.ResponseFile 注释
+2. 修改 ValidateCodeImg 注释
+
+2008-04-17 V2.76.0
+1. 增加 DPHelper.GetCountNo
+
+2008-04-10 V2.75.1
+1. 修改 Web.PageHelper.GetForm_Get -> Web.PageHelper.GetFormGet
+
+2008-04-09 V2.75.0
+1. 增加 DPHelper.IsNullDataTable
+2. 增加 DPHelper.IsNotNullDataTable
+
+2008-03-20 V2.74.0
+1. 增加 Web.WebControlHelper DataGird Helper
+2. 删除多余的 using System.Collections.Generic;
+3. 去除visual studio 2008 才支持的 get; set;
+
+2008-03-10 V2.73.3
+1. Class Pager 修复Bug
+
+2008-03-08 V2.73.2
+1. Class ScheduledTaskHelper 增加 IsRunning
+2. Class ScheduledTaskHelper 增加 DeleteMethod
+3. Class ScheduledTaskHelper 增加 ClearMethod
+4. Class ScheduledTaskHelper 增加日志功能 LogList
+
+2008-03-07 V2.73.1
+1. Class ScheduledTaskHelper 增加对NonPublic和不是Static方法的支持
+
+2008-03-07 V2.73.0
+1. 增加 Class ScheduledTaskHelper
+
+2008-02-29 V2.72.0
+1. 增加 DPHelper.CheckPageIndex()
+2. 增加 DPHelper.GetPagedView()
+
+2008-02-21 V2.71.0
+1. 增加 Web.PageHelper.GetForm_Get()
+
+2008-02-05 V2.70.2
+1. 增加 ErrLogHelper 返回 ErrerId, 方便找寻错误
+
+2008-02-05 V2.70.1
+1. 增加 ErrLogHelper 记录 ErrerId, 方便找寻错误
+
+2008-02-04 V2.70.0
+1. 增加 DPHelper.GetPagedTable();
+
+2008-01-26 V2.69.0
+1. 增加 DPHelper.GetPageCount();
+
+2008-01-26 V2.68.0
+1. 增加 DPHelper.Formatxxx();
+
+2008-01-22 V2.67.0
+1. 增加 CheckHelper.IsIdCard_China()
+
+2008-01-18 V2.66.0
+1. 增加 ErrLogHelper.FormatMsg(), 自动判断 Web 或 Win程序
+
+2008-01-15 V2.65.0
+1. 增加 DPHelper.GetPartPwd()
+
+2008-01-09 V2.64.1
+1. ErrLogHelper 日志记录格式调整
+2. Pager this.UniqueID Bug 修复, 全部调整为 this.ClientID
+
+2008-01-08 V2.64.0
+1. DPHelper.IsBool, GetBool 完善
+2. 增加 Encrypt.DES, Encrypt.MD5, Encrypt.RC2, Encrypt.Rijndael, Encrypt.RSA, EncryptTripleDES
+
+2008-01-07 V2.63.3
+1. DPHelper.GetXxx 完善, int long date decimal double bool = null or DBNull.Value 返回 defaultValue
+1. DPHelper.IsXxx 完善, int long date decimal double bool = null or DBNull.Value 返回 false
+
+2008-01-05 V2.63.2
+1. lnkbtnGo_Click 完善
+
+2008-01-05 V2.63.1
+1. RecordCount 完善, 如果小于0则抛出错误
+2. PageSize 完善, 如果小于1则抛出错误
+3. PageIndex 仅仅判断是否大于等于0, 最大值范围不做判断
+
+2007-12-28 V2.63.0
+1. 增加 Data4Net.Controls.Web.Pager Class 对 URL 的分页支持
+2. 增加 Data4Net.Controls.Web.Pager Class 对一个Page中多个Pager控件的支持, 即使用了 this.UniqueID
+
+2007-12-27 V2.62
+1. 修复 Data4Net.Controls.Web.Pager Class Bug
+
+2007-12-26 V2.61
+1. 增加 Data4Net.Controls.Web.Pager Class
+
+2007-12-25 V2.60
+1. 删除 OleDbDataHelper, OleDbHelper, OleDbParameterHelper
+2. 更新 SqlHelper 到 GotDotNet 3.1 中的版本
+
+2007-12-22 V2.59
+1. 增加 ErrLogHelper 级别, Info, Warn, Error
+
+2007-12-20 V2.58
+1. 移动 Data4Net.SqlHelper 等到 Data4Net.Sql namespace 下
+
+2007-12-19 V2.57
+1. 增加 Data4Net.Ado namespace
+2. 整合 DbSql DbOleDb 到 Sql
+
+2007-12-16 V2.56
+1. 增加 LogErrHelper, 继承ErrLogHelper
+2. 增加 ErrLogHelper 锁定变量
+
+2007-12-15 V2.55
+1. 增加 Data4NetConfigurationSectionHandler 对自定义配置文件功能
+
+2007-12-15 V2.54
+1. 优化 ErrLogHelper Class
+
+2007-12-14 V2.53
+1. 增加 Web.UrlHelper Class
+
+2007-12-13 V2.52
+1. 增加 CacheManager.GetData<T>(string key, GetCacheDataMethod<T> data, ProcessGetOnHasCacheDataMethod proc, int cacheMinutes, bool isAddKeyList)
+
+2007-12-13 V2.51
+1. 增加 CacheManager.GetData<T>(string key, GetCacheDataMethod<T> data, ProcessOnHasCacheDataMethod proc, int cacheMinutes, bool isAddKeyList)
+2. 增加 CacheManager.GetData<T>(string key, GetCacheDataMethod<T> data, ProcessSetOnHasCacheDataMethod proc, int cacheMinutes, bool isAddKeyList)
+
+2007-12-12 V2.50
+1. 增加 RandomHelper.GetPwd()
+2. 增加 RandomHelper.GetRndStr()
+
+2007-12-11 V2.49
+1. 增加 WeekHelper Class
+
+2007-12-11 V2.48
+1. 修复 hh 应该为 HH bug
+
+2007-12-07 V2.47
+1. 增加 RandomHelper Class
+
+2007-12-06 V2.46
+1. 增加ImageHelper.IsImage()
+
+2007-11-30 V2.45
+1. ValidateCodeImg优化算法
+
+2007-11-29 V2.44
+1. ValidateCodeImg优化
+
+2007-11-22 V2.43
+1. 增加ErrLogHelper.FormatMsgWeb()
+
+2007-11-16 V2.42
+1. 完善CacheManager, 增加不记录KeyList功能
+2. 增加SessionHelper
+
+2007-11-10 V2.41
+1. 完善ImageHelper, 增加对水印从图片左上角开始计算功能
+
+2007-11-05 V2.40
+1. 修复完善XmlHelper
+2. 优化IoHelper
+
+2007-11-02 V2.39
+1. Data4Net.SqlInjection.LawlessesSql, 即ConfigurationManager.AppSettings["Data4NetLawlessesSql"]增加默认值:null则为','', empty为empty
+2. Data4Net.Web.ValidateCodeImg 优化, 增加噪音线 条数 最大粗度 配置
+3. 增加 Data4Net.DPHelper.IsNullDataSet
+4. 增加 AppSettingsHelper class
+
+2007-11-02 V2.38
+1. 优化 ErrLogHelper, 在LogInfo,LogWarn方法增加string ex的重载
+
+2007-10-31 V2.37
+1. 优化 PageHelper.Alert(), 在msg为空情况下不显示alert框
+
+2007-10-26 V2.36
+1. 增加 EncryptHelper Class
+
+2007-10-25 V2.35
+1. 增加 WebHelper.MainUrl
+2. 修复 WebHelper 中 Https,ServerName,ServerPort bug
+
+2007-10-20 V2.34
+1. 优化 ImageHelper Class, 把Image.GetThumbnailImage修改为Graphics.DrawImage
+
+2007-10-19 V2.33
+1. 优化 ImageHelper Class, 对 SaveImage 增加自动建立路径功能
+2. 增加 IoHelper.CreateDirectory 方法
+
+2007-10-15 V2.32
+1. 优化 NetHelper Class
+
+2007-10-01 V2.31
+1. 增加 CmdHelper Class
+
+2007-09-21 V2.30
+1. 增加PageHelper.AlertBack()
+
+2007-09-19 V2.29
+1. 优化NetHelper.GetString()
+
+2007-09-17 V2.28
+1. 优化ErrLogHelper, 本身错误信息通过返回值返回, 方便调试
+2. 优化SqlInjection
+
+2007-09-16 V2.27
+1. 优化ErrLogHelper.LogDebug()
+
+2007-09-15 V2.26
+1. 增加ErrLogHelper.LogDebug()
+
+2007-09-09 V2.25
+1. 增加ImageHelper
+
+2007-09-08 V2.24
+1. 优化ErrLogHelper
+
+2007-09-07 V2.23
+1. 优化DPHelper.GetOrderId()
+2. 优化ValidateCodeImg
+3. 优化ErrLogHelper
+
+2007-09-05 V2.22
+1. 新增ErrLogHelper
+2. 优化NetHelper.SendMail()
+2. 优化IoHelper
+
+2007-09-05 V2.21
+1. 新增IoHelper.WriteDateFile()
+
+2007-09-01 V2.20
+1. 优化IoHelper类
+2. 增加NetHelper.LocalAddrs属性
+
+2007-08-24
+1. 对DPHelper中的数据类型判断和转换优化, 增加对MinValue,MaxValue的支持
+2. 增加Web.PageHelper.Alert()方法
+
+2007-08-17
+1. 修改BusinessResult类
+2. 修改XmlHelper类
+
+2007-08-16
+1. 增加XmlHelper.GetDataTable()方法
+
+2007-08-15
+1. 修改WebControlHelper.SetEnterControl()方法, 增加对FireFox的支持
+2. 修改DPHelper.GetString()方法, 增加对...的支持
+
+2007-08-11
+1. 增加WebControlHelper.SetEnterControl()方法
+
+2007-08-08
+1. 增加DPHelper.FillString()方法
+
+2007-08-05
+1. 修改FilterHandler类, 把更多方法保护为private, FilterBadWords方法增加可定义替换对象
+
+2007-08-04
+1. 修改CacheManager类, 增加了List<string> KeyList
+2. 增加危险字符过滤的类, FilterRealProxy
+
+2007-07-31
+1. 修改SqlInjection类
+
+2007-07-31
+1. 修改类的修饰符号, 去除所有static, 增加sealed, 在所有类前增加public
+
+2007-07-30
+1. 增加RegexHelper类, 对正则表达式验证数据的支持
+2. 增加DPHelper.IsNotNullDataSet()方法
+3. 增强DPHelper.GetString()方法
+4. 修改DPHelper.GetTextLength()为GetStringLengthEx(), 增强GetStringLengthEx()方法
+
+2007-07-28
+1. 把IsSafeAllRequest()从SqlInjection类移动到WebHelper类中, 并修改方法名字IsSafeSqlAllRequest()
+
+2007-07-28
+1. 增加高精度计时器HiPerfTimer类
+
+2007-07-28
+1. 增加WebHelper.ResponseFile()方法
+2. 增加SqlInjection类, 防止Sql注入
+3. 增加VBString类, 方法按照VB String类中写的Replace, Splite等函数
+4. 增加DPHelper.ReplaceEx()方法, 扩展C# String.Replace功能, 不区分大小写
+5. 删除DPHelper.CheckSql()方法, 功能移植到SqlInjection类中
+6. 增加IoHelper类, 增加文件读写方法
+
+2007-07-28
+1. 修改NetHelper中的GetString基础函数, 有错误时直接抛出错误
+
+2007-07-27
+1. 对SqlHelper, OleDbHelper整体调整, 完全参照Microsoft Application Data Block中的SqlHelper书写
+2. 增加IniHelper类，通过kernel32支持INI文件的读、写操作
+
+2007-07-26
+1. 去除了LogHelper类,去除了对Log4Net的支持
+
+2007-07-25
+1. 按照Microsoft Data Access Application Block修改了SqlHelper
+2. 按照Microsoft Data Access Application Block修改了OldDbHelper
+3. 修改了LogHelper类中使用Log4Net的程序
+
+2007-07-07
+1. CacheManager, ValidateCodeHelper, ValidateCodeImg, WebControlHelper, WebHelper 移动到 Web 文件夹下, 并把 NameSpace 移动到 Web 下
+2. 增加 NetHelper 类, 把 MailHelper, Web.WebHelper 一些方法移动到 NetHelper 类中
+3. 删除 MailHelper 类
+4. Web.WebHelper 类中一些方法修改为属性
+5. 修改 LogHelper 类, 增加 Win or Web 两种日志记录类型
+6. BusinessResult 类中变量修改为属性
+
+2007-07-07
+1. 由Visual Studio 2005工程项目转换到Visual Studio Orcas
