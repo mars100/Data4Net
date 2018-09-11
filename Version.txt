@@ -1,4 +1,19 @@
-﻿2015-06-19 V2.400.19
+﻿2018-09-11 V3.0
+1. Data4Net 整体升级到 framework 4.6.1 版本
+2. 全新引入 Data4Net.Standard （基于 .Net Standard 1.4 版本）
+
+========== 以下为 framework 2.0 最后一个版本 ==========
+
+2017-06-08 V2.500.22
+1. 从 Visual Studio 2013 升级为 2015。
+
+2016-12-19 V2.500.21
+1. Modify DataHelper.GetSpellCodeChar();
+
+2016-11-07 V2.500.20
+1. Add IoHelper.ReadFile2Byte();
+
+2015-06-19 V2.400.19
 1. Modify JsonGo.ShowJsonString2Human();
 
 2015-05-27 V2.400.18
