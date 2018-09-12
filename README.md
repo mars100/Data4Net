@@ -10,9 +10,10 @@ Data4Net 2.X (.NET Framework 2.0)
 * 基于 framework 2.0 最后一个版本号2.500.22，之后将使用基于 framework 4.6.1 的版本编译。
 ---
 
-Powered by MARS
+Powered by MARS  
 2018.09.11
-
+  
+  
 
 附录：帮助文档
 ![doc_image](Document/doc_01.png)
