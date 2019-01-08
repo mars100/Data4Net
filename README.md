@@ -11,9 +11,9 @@ Data4Net 2.X (.NET Framework 2.0)
 ---
 
 文档
-* [帮助文档 - 在线浏览](Data4Net.md)
-* [帮助文档 - xml](Data4Net.xml)
-* [帮助文档 - chm](Data4Net-2.400.14.0.chm)
+* [帮助文档 - 在线浏览](Document/Data4Net.md)
+* [帮助文档 - xml](Document/Data4Net.xml)
+* [帮助文档 - chm](Document/Data4Net-2.400.14.0.chm)
 
 ---
 
