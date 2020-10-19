@@ -1,4 +1,12 @@
-﻿2018-09-11 V3.0
+﻿2020-10-19 V3.2
+1. 增加 ImageHelper 类的倾斜水印文字模式（自动全屏）
+
+2019-04-04 V3.1
+1. 升级项目到 VS 2019。
+2. 升级Test部分项目从 framework 3.5 到 framework 4.6.1。
+3. 修改部分cs文件从 assic 到 utf-8。
+
+2018-09-11 V3.0
 1. Data4Net 整体升级到 framework 4.6.1 版本
 2. 全新引入 Data4Net.Standard （基于 .Net Standard 1.4 版本）
 
