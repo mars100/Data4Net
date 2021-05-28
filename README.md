@@ -3,6 +3,7 @@ Data4Net
 ---
 
 Data4Net 3.X (.NET Framework 4.6.1)
+* 基于 framework 4.6.1 的版本编译。
 * 增加 Data4Net.Standard 类库，基于 .Net Standard 1.4 编译。
 ---
 
