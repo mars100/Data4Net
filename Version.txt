@@ -1,4 +1,12 @@
-﻿2021-05-15 V3.3
+﻿### Data4Net 版本更新说明
+
+
+2023-02-10 V3.4
+1. 修改工程文件到 Visual Studio 2022 版本
+2. 移除 Data4Net.Standard 类库
+3. The types in System.Data.OracleClient are deprecated. （Data4Net.Ado.Oracle 类暂时未移除）
+
+2021-05-15 V3.3
 1. 增加 NetHelper 支持不忽略 https 证书的请求（之前默认均主动忽略证书）。
 
 2020-10-19 V3.2
