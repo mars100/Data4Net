@@ -1,6 +1,9 @@
 ﻿### Data4Net 版本更新说明
 
 
+2023-11-16 V3.5
+1. 优化 IniHelper
+
 2023-02-10 V3.4
 1. 修改工程文件到 Visual Studio 2022 版本
 2. 移除 Data4Net.Standard 类库
