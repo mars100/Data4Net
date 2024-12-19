@@ -1,5 +1,8 @@
 ﻿### Data4Net 版本更新说明
 
+2024-12-19 V3.6
+1. 增加 EncryptHelper.EncodeSha256
+2. 增加 Data4Net.Encrypt.SHA256
 
 2023-11-16 V3.5
 1. 优化 IniHelper
