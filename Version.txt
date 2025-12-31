@@ -1,5 +1,9 @@
 ﻿### Data4Net 版本更新说明
 
+2025-12-31 V3.7
+1. 增加 EncryptHelper.EncodeSha512
+2. 增加 Data4Net.Encrypt.SHA512
+
 2024-12-19 V3.6
 1. 增加 EncryptHelper.EncodeSha256
 2. 增加 Data4Net.Encrypt.SHA256
